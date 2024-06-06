@@ -1,0 +1,112 @@
+ERROR - 2024-06-04 00:48:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3' at line 1 in C:\xampp\htdocs\api2.0\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\api2.0\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\api2.0\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\api2.0\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\api2.0\app\Models\HomeModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\api2.0\app\Controllers\Home.php(20): App\Models\HomeModel->lista_productos()
+#5 C:\xampp\htdocs\api2.0\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\api2.0\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\api2.0\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\api2.0\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\api2.0\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\api2.0\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-06-04 00:48:57 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3' at line 1
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\HomeModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM productosLIMIT 3')
+ 2 APPPATH\Controllers\Home.php(20): App\Models\HomeModel->lista_productos()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-04 00:48:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM productosLIMIT 3')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM productosLIMIT 3')
+ 3 APPPATH\Models\HomeModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM productosLIMIT 3')
+ 4 APPPATH\Controllers\Home.php(20): App\Models\HomeModel->lista_productos()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-04 00:48:57 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM productosLIMIT 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM productosLIMIT 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM productosLIMIT 3')
+ 4 APPPATH\Models\HomeModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM productosLIMIT 3')
+ 5 APPPATH\Controllers\Home.php(20): App\Models\HomeModel->lista_productos()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-04 00:49:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3' at line 1 in C:\xampp\htdocs\api2.0\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\api2.0\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\api2.0\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\api2.0\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\api2.0\app\Models\HomeModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\api2.0\app\Controllers\Home.php(20): App\Models\HomeModel->lista_productos()
+#5 C:\xampp\htdocs\api2.0\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\api2.0\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\api2.0\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\api2.0\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\api2.0\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\api2.0\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-06-04 00:49:02 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3' at line 1
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\HomeModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM productosLIMIT 3')
+ 2 APPPATH\Controllers\Home.php(20): App\Models\HomeModel->lista_productos()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-04 00:49:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM productosLIMIT 3')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM productosLIMIT 3')
+ 3 APPPATH\Models\HomeModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM productosLIMIT 3')
+ 4 APPPATH\Controllers\Home.php(20): App\Models\HomeModel->lista_productos()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-04 00:49:02 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM productosLIMIT 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM productosLIMIT 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM productosLIMIT 3')
+ 4 APPPATH\Models\HomeModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM productosLIMIT 3')
+ 5 APPPATH\Controllers\Home.php(20): App\Models\HomeModel->lista_productos()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-04 01:12:48 --> ParseError: Unclosed '{' on line 8
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\api2.0\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

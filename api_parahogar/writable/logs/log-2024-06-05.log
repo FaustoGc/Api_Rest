@@ -1,0 +1,77 @@
+CRITICAL - 2024-06-05 16:14:23 --> Error: Class "App\Models\ClienteModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 16:15:10 --> Error: Class "App\Models\ClienteModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 16:15:10 --> Error: Class "App\Models\ClienteModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 16:25:15 --> Error: Class "App\Models\ClienteModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 16:27:36 --> Error: Class "App\Models\ClienteModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 16:32:45 --> Error: Class "App\Models\ClienteModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-05 16:37:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$clienteModel is deprecated in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 16:37:10 --> Error: Class "App\Models\VentaModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-05 16:44:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$homeModel is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
